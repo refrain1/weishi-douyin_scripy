@@ -1,1 +1,1 @@
-# weishi-douyin_scripy
+# 自用上班划水脚本，用于挂机刷微视和抖音极速版
