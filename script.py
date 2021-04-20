@@ -15,7 +15,7 @@ def adb_swipe(n,time_count,name):
     x2 = round(350+random.uniform(-8,8),2)
     y2 = round(900+random.uniform(-7,7),2)
     step_ = round(200+random.randint(-9,9),2)
-    time_sleep = random.uniform(6,8)
+    time_sleep = round(random.uniform(6,8))
     os.system("adb shell input swipe {} {} {} {} {}".format(x1,y1,x2,y2,step_))
     print('正在看{}第{}个视频！看{}秒！总共观看{}分钟'.format(name,n,time_sleep,round(time_count/60,2)))
     time.sleep(time_sleep)
