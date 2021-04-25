@@ -85,7 +85,7 @@ def check_time(name, first_time, now_time):
 
 #点击喜欢
 def click_like(i, name):
-    random_num = random.randint(1, 30)
+    random_num = random.randint(1, 10)
     # random_num = 1
     if random_num == 1 or random_num == 10:
         try:
@@ -100,7 +100,7 @@ now_time = datetime.now()
 n = 1
 time_count = 1
 d = u2.connect()
-os.system('adb shell settings put system screen_brightness {}'.format(11))
+os.system('adb shell settings put system screen_brightness {}'.format(10))
 
 
 # 微视
